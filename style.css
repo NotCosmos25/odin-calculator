@@ -1,0 +1,68 @@
+body {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0;
+}
+
+.calculator-input-container {
+    color: white;
+    background-color:rgb(17, 17, 72);
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+#display-input {
+    color: gray;
+    font-size: 18px;
+}
+
+.input-buttons-container {
+    padding: 10px;
+    background-color: rgb(41, 41, 92);
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 290px;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+button {
+    width: 60px;
+    height: 40px;
+    border: none;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#clear-btn, #delete-btn {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+
+#clear-btn, #equals-btn {
+    width: 130px;
+}
+
+#equals-btn {
+    background-color: rgb(248, 92, 92);
+    color: white;
+}
